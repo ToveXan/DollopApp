@@ -12,6 +12,8 @@
 		B93825E820EFBFD700A953DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93825E620EFBFD700A953DB /* Main.storyboard */; };
 		B93825EA20EFBFD800A953DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93825E920EFBFD800A953DB /* Assets.xcassets */; };
 		B93825ED20EFBFD800A953DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93825EB20EFBFD800A953DB /* LaunchScreen.storyboard */; };
+		B96FADCE20F4E9F80046F343 /* MenuCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96FADCD20F4E9F80046F343 /* MenuCode.swift */; };
+		B9753C9620F4E33400D7FDF4 /* BackupCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9753C9520F4E33400D7FDF4 /* BackupCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B93825E920EFBFD800A953DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B93825EC20EFBFD800A953DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B93825EE20EFBFD800A953DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96FADCD20F4E9F80046F343 /* MenuCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCode.swift; sourceTree = "<group>"; };
+		B9753C9520F4E33400D7FDF4 /* BackupCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,31 @@
 			isa = PBXGroup;
 			children = (
 				B93825E220EFBFD700A953DB /* AppDelegate.swift */,
-				B93825E420EFBFD700A953DB /* ViewController.swift */,
+				B96FADCD20F4E9F80046F343 /* MenuCode.swift */,
+				B9DE1B8020F2DB77002FCA60 /* ViewControllers */,
+				B9DE1B7F20F2DB4B002FCA60 /* Menu TableView */,
 				B93825E620EFBFD700A953DB /* Main.storyboard */,
+				B9753C9520F4E33400D7FDF4 /* BackupCode.swift */,
 				B93825E920EFBFD800A953DB /* Assets.xcassets */,
 				B93825EB20EFBFD800A953DB /* LaunchScreen.storyboard */,
 				B93825EE20EFBFD800A953DB /* Info.plist */,
 			);
 			path = DollopApp;
+			sourceTree = "<group>";
+		};
+		B9DE1B7F20F2DB4B002FCA60 /* Menu TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Menu TableView";
+			sourceTree = "<group>";
+		};
+		B9DE1B8020F2DB77002FCA60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B93825E420EFBFD700A953DB /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B93825E520EFBFD700A953DB /* ViewController.swift in Sources */,
+				B9753C9620F4E33400D7FDF4 /* BackupCode.swift in Sources */,
 				B93825E320EFBFD700A953DB /* AppDelegate.swift in Sources */,
+				B96FADCE20F4E9F80046F343 /* MenuCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +303,7 @@
 		B93825F220EFBFD800A953DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23P2DUU2LR;
 				INFOPLIST_FILE = DollopApp/Info.plist;
@@ -297,7 +321,7 @@
 		B93825F320EFBFD800A953DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23P2DUU2LR;
 				INFOPLIST_FILE = DollopApp/Info.plist;
